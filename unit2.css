@@ -1,0 +1,55 @@
+.header {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 170px;
+}
+
+.Outcome2 {
+            background: cornsilk;
+            font-family: monospace;
+}
+        
+h4 {
+    text-decoration: underline;
+  }
+
+  body {
+    background: url(tree.jpg);
+    padding: 0;
+    margin: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+
+.flex-container > div {
+
+    background: rgba(255,255,255,.6);
+    box-shadow: 0 5px 15px rgba(0,0,0,4);
+    width: 500px;
+    margin: 60px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    font-family: monospace;
+    margin-left: 250px;
+}
+.flex-container > div1 {
+
+  background: rgba(255,255,255,.6);
+  box-shadow: 0 5px 15px rgba(0,0,0,4);
+  width: 600x;
+  margin: 60px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 10px;
+  font-family: monospace;
+  margin-left: 125px;
+}

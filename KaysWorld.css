@@ -1,0 +1,33 @@
+body {
+    background: url(sunset.jpg);
+    margin: 0;
+    padding: 0;
+}
+.header {
+    padding: 5px;
+    text-align: center;
+   
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-left: 10;
+    /* background: url(sunset.jpg) */
+}
+
+.flex-container > div {
+
+    background: rgba(255,255,255,.0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+    width: 200px;
+    margin: 35px;
+    text-align: centre;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: monospace;
+}

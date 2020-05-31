@@ -1,0 +1,36 @@
+.header {
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+body {
+    background: url(tree.jpg);
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    text-decoration: underline;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-container > div {
+
+    background: rgba(255,255,255,.6);
+    box-shadow: 0 5px 15px rgba(0,0,0,4);
+    width: 500px;
+    margin: 60px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    font-family: monospace;
+    margin-left: 450px;
+ 
+    
+}

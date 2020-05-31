@@ -1,0 +1,41 @@
+.header {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.Outcome1 {
+            
+            font-family: monospace;
+}
+
+body {
+    background: url(tree.jpg);
+    padding: 0;
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* background: url(sunset.jpg) */
+}
+
+.flex-container > div {
+
+    background: rgba(255,255,255,.6);
+    box-shadow: 0 5px 15px rgba(0,0,0,4);
+    width: 500px;
+    margin: 60px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    font-family: monospace;
+    margin-left: 125px;
+    
+}
+h4 {
+    text-decoration: underline;
+}
